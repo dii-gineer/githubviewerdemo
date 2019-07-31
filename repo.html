@@ -1,0 +1,25 @@
+<div class="container">
+<h2>{{repo.name}}</h2>
+
+<div style="text-align:center">
+  Issues: {{repo.open_issues_count}}
+</div>
+<br/>
+
+<h4>Contributors</h4>
+
+<hr>
+
+<div class="card-columns">
+    <div class="card" style="width: 10rem;text-align:center" ng-repeat ="user in repo.contributors"> 
+    <img   class="card-img-top"  src="{{user.avatar_url}}" />
+    <div class="card-text">
+    {{user.login}}  
+    </div>
+  </div>
+</div>
+<div class="navigation">
+<a href="#/main" class="btn btn-lg btn-warning">Back to Search</a>
+<a href="#/user/{{repo.owner.login}}"  class="btn btn-lg btn-secondary">Back to {{repo.owner.login}}</a>
+</div>
+</div>

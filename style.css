@@ -1,0 +1,41 @@
+/* Styles go here */
+h2, h3, h4, h6 {
+  text-align:center;
+}
+h1{
+  text-align:center;
+  padding-top:5vh;
+  padding-bottom:1vh;
+}
+
+.form{
+  padding:5vh;
+  text-align:center;
+}
+
+#search{
+  border:hidden;
+  border-bottom: solid 3px gray;
+  width:60%;
+  text-align:center;
+}
+
+
+.UserImg{
+ text-align:center;
+}
+.imgProfile{
+  width:10rem;
+}
+
+.orderby{
+  text-align:right;
+}
+
+
+.navigation{
+  text-align:center;
+  padding:5vh
+}
+
+.card {display:inline-block;}
